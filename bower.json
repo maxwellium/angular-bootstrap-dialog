@@ -1,0 +1,16 @@
+{
+  "name": "angular-bootstrap-dialog",
+  "version": "0.0.0",
+  "main": "angular-bootstrap-dialog.js",
+  "ignore": [
+    "**/.*",
+    ".DS_Store",
+    "node_modules",
+    "components"
+  ],
+  "description": "A lightweight angularjs bootstrap3 dialog",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/maxwellium/angular-bootstrap-dialog.git"
+  }
+}
