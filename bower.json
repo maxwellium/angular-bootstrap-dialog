@@ -1,6 +1,6 @@
 {
   "name": "angular-bootstrap-dialog",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "angular-bootstrap-dialog.js",
   "ignore": [
     "**/.*",
