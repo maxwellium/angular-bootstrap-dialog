@@ -1,12 +1,12 @@
-.modal(style='display: {{visible && \'block\' || \'none\'}}')
-  .modal-dialog
-    .modal-content
-      .modal-header
-        button.close(type='button', data-dismiss='modal', aria-hidden='true', ng-click='onCancel()', class='close') &times;
-        h4.modal-title {{dialogTitle}}
-      .modal-body(ng-transclude)
-      .modal-footer
-        button.btn.btn-default(type='button', data-dismiss='modal', ng-click='onCancel()') {{dialogCancel || 'Cancel'}}
-        button.btn.btn-primary(type='button', ng-click='onOk()') {{dialogOk || 'Ok'}}
-
-//- modal-backdrop.fade.in(ng-show='visible')
+div
+  .modal-backdrop.fade.in(ng-show='visible')
+  .modal(style='display: {{visible && \'block\' || \'none\'}}')
+    .modal-dialog
+      .modal-content
+        .modal-header
+          button.close(type='button', data-dismiss='modal', aria-hidden='true', ng-click='onCancel()', class='close') &times;
+          h4.modal-title {{dialogTitle}}
+        .modal-body(ng-transclude)
+        .modal-footer
+          button.btn.btn-default(type='button', data-dismiss='modal', ng-click='onCancel()') {{dialogCancel || 'Cancel'}}
+          button.btn.btn-primary(type='button', ng-click='onOk()') {{dialogOk || 'Ok'}}
