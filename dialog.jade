@@ -1,0 +1,5 @@
+div
+  .modal-backdrop.fade.in(ng-show='visible')
+  .modal(style!='display: {{visible && \'block\' || \'none\'}}')
+    .modal-dialog
+      .modal-content(ng-transclude)
